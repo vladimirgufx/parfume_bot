@@ -1,7 +1,7 @@
 import os
 
 # Токен бота от @BotFather (лучше использовать переменные окружения)
-BOT_TOKEN = os.getenv('BOT_TOKEN', '8258538369:AAGarw6bCZ9KW7iR9is6WJPFPxiippkkU08')
+BOT_TOKEN = os.getenv('BOT_TOKEN', '')
 
 # Вопросы и варианты ответов
 QUESTIONS = [
@@ -653,4 +653,5 @@ PERFUMES = [
         },
         "price": "7 300 руб."
     }
+
 ]
